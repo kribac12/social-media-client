@@ -1,12 +1,14 @@
 {
-  "name": "css-frameworks-ca",
-  "version": "1.0.0",
-  "description": "Test",
+  "name": "workflow-ca",
+  "version": "0.1.0",
+  "description": "Practising unit testing and e2e testing in a forked Noroff repository",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server"
   },
+  "git repository": "https://github.com/kribac12/social-media-client",
   "keywords": [],
   "author": "Noroff",
   "license": "ISC",
