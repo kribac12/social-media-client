@@ -1,6 +1,6 @@
 {
   "name": "workflow-ca",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Practising unit testing and e2e testing in a forked Noroff repository",
   "type": "module",
   "main": "index.js",
