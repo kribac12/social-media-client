@@ -15,7 +15,7 @@ describe("User Login", () => {
       expect(alertMessage).to.equal("Either your username was not found or your password is incorrect");
     });
 
-    // Submit form and the alert should be triggered
+    // Submit form and then the alert should be triggered
     cy.get("#loginForm").submit();
 
     // Check that no token is saved in localStorage
