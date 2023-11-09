@@ -1,6 +1,9 @@
 name: Automated E2E Testing
 on: 
   pull_request:
+    branches:
+    - master
+    - workflow
   workflow_dispatch:
 
 jobs:
